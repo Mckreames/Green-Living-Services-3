@@ -15,24 +15,17 @@ body {
     margin: 1rem 2rem;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-    object-fit: contain;
-}
-
 .grid {
     display: grid;
     gap:20px;
 }
 
-header {
-    width: 90%;
-    height: 50px;
-    border: 1px solid black;
+.nav-logo{
+    width: 200px;
 }
 
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
