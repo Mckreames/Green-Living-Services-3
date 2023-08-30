@@ -1,5 +1,5 @@
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 :root {
@@ -21,6 +21,12 @@ html {
 
 body {
     margin: 1rem 2rem;
+    /* background: 
+    linear-gradient(85deg, rgb(204, 216, 204), white,rgb(197, 231, 197)),
+    linear-gradient(201deg, white, rgb(175, 223, 175), white); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* border: 1px solid black; */
 }
 
 .grid {
@@ -28,20 +34,102 @@ body {
     gap:20px;
 }
 
+/* Navigation Bar Stuff */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    gap: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgba(107, 216, 85, 0.9), white 10%);
+}
+
+nav {
+    grid-column: 4;
+}
+
 nav ul {
+    /* grid-column: 4; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: Space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 20px 20px;
+    /* border: 1px solid black; */
 }
 
 .nav-logo {
+    margin-left: 4rem;
     width: 150px;
     list-style: none;
-    position: absolute
+    /* position: absolute; */
 }
 
 .nav-link {
-    
+    list-style: none;
+    /* box-shadow: 0 5px 3px -3px rgb(255, 255, 255); */
 }
+
+ul a {
+    color: #377e3c;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* WE ARE THE BEST */
+
+.watb {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 0.6rem;
+    color: #df8f16;
+    /* color: #186d1e; */
+    text-decoration: underline;
+    text-decoration-color: #377e3c;
+}
+
+/* Declaration and Carousel */
+
+.declaration {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 4rem;
+    row-gap: 0;
+}
+
+.header-sec {
+    text-align: center;
+    color: green;
+}
+
+.p-sec1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    line-height: 2rem;
+    text-align: center;
+    grid-column: 1;
+  }
+  
+  .p-sec2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    line-height: 2rem;
+    text-align: center;
+    grid-column: 1;
+  }
+  
+  .em-orange {
+    color: #df8f16;
+    font-size: 1.3rem;
+  }
+  
+  .emphasis {
+    font-size: 1.6rem;
+    color: green;
+  }
