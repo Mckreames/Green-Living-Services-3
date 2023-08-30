@@ -182,13 +182,13 @@ ul a {
 
 .declaration-img {
     margin-top: 4rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    /* padding-top: 5rem;
+    padding-bottom: 5rem; */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
-    border-radius:
+    /* border-radius: */
 }
 
 .declaration {
@@ -243,6 +243,9 @@ ul a {
   }
 
   .upside-down-grass {
-    width: 50rem;
+    width: 100%;
     grid-column: 2;
+    /* justify-items: end; */
+    margin: auto;
+    margin-right: 0;
   }
