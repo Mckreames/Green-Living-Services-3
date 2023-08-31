@@ -253,6 +253,7 @@ ul a {
 
 .what-we-do-img {
     margin-top: 0;
+    padding: 0;
     /* padding-top: 5rem;
     padding-bottom: 5rem; */
     width: 100%;
@@ -263,9 +264,9 @@ ul a {
 }
 
 .what-we-do {
-    padding: 2rem 4rem;
+    /* padding: 2rem 4rem; */
     row-gap: 0;
-    width: 90%;
+    width: 100%;
     grid-column: 2;
     /* border: 1px solid black; */
 }
