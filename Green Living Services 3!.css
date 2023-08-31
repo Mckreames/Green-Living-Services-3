@@ -317,3 +317,35 @@ ul a {
     grid-column: 4; 
 }
 
+.tree {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.grass {
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.hose {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.wheel-barrow {
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.list-grid {
+    grid-row: span 2;
+    grid-column: span 2;
+    font-size: 2rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    list-style: none;
+    color: var(--orange);
+}
+
