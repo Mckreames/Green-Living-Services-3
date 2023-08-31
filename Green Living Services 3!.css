@@ -33,7 +33,7 @@ body {
 
 .grid {
     display: grid;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 /* Navigation Bar Stuff */
@@ -219,9 +219,9 @@ ul a {
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
-  .p-sec2 {
+.p-sec2 {
     font-size: 1.5rem;
     font-weight: bold;
     word-spacing: 0.2rem;
@@ -230,22 +230,89 @@ ul a {
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
-  .em-orange {
+.em-orange {
     color: var(--orange);
     font-size: 1.3rem;
-  }
+}
   
-  .emphasis {
+.emphasis {
     font-size: 1.6rem;
     color: var(--green);
-  }
+}
 
-  .upside-down-grass {
+.landscaping {
     width: 100%;
     grid-column: 2;
     /* justify-items: end; */
     margin: auto;
     margin-right: 0;
-  }
+    border-radius: 15px 0 0 15px;
+}
+
+.what-we-do-img {
+    margin-top: 0;
+    /* padding-top: 5rem;
+    padding-bottom: 5rem; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    /* border-radius: */
+}
+
+.what-we-do {
+    padding: 2rem 4rem;
+    row-gap: 0;
+    width: 90%;
+    grid-column: 2;
+    /* border: 1px solid black; */
+}
+
+.upside-down-grass {
+    width: 100%;
+    grid-column: 1;
+    /* justify-items: end; */
+    margin: auto;
+    margin-left: 0;
+    border-radius: 0 15px 15px 0;
+}
+
+.icon-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    margin: auto;
+}
+
+.icon {
+    width: 100px
+}
+
+.top1 {
+    grid-column: span 4;
+}
+
+.lawn-mower {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.weed-eater {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.leaf-blower {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.rake {
+    grid-row: 3;
+    grid-column: 4; 
+}
+
