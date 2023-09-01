@@ -27,7 +27,8 @@ html {
 
 body {
     margin: 1rem 2rem;
-    background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
+    /* background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216)); */
+    /* background-color: lightgrey; */
     /* border: 1px solid black; */
 }
 
@@ -187,7 +188,7 @@ ul a {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: white;
+    background: linear-gradient(to right, white 2%, lightgrey);
     /* border-radius: */
 }
 
@@ -234,7 +235,7 @@ ul a {
   
 .em-orange {
     color: var(--orange);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
   
 .emphasis {
@@ -259,7 +260,8 @@ ul a {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: white;
+    /* background-color: white; */
+    background: linear-gradient(to left, white, lightgrey 90%)
     /* border-radius: */
 }
 
@@ -273,6 +275,7 @@ ul a {
 
 .upside-down-grass {
     width: 100%;
+    height: 100%;
     grid-column: 1;
     /* justify-items: end; */
     margin: auto;
@@ -357,6 +360,16 @@ ul a {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     background-color: white;
+    align-items: center;
+    background: linear-gradient(to right, white 2%, lightgrey);
+
+}
+
+.gbwi-div {
+    grid-column: 1;
+    padding: 2rem 4rem;
+    row-gap: 0;
+    width: 90%;
 }
 
 .header-sec-gbwi {
@@ -366,22 +379,18 @@ ul a {
     margin-left: auto;
     margin-right: auto;
     font-size: 3rem;
-    grid-row: 1;
-    grid-column: 1;
 }
 
 .gbwi {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     word-spacing: 0.2rem;
     line-height: 2.2rem;
     text-align: center;
-    grid-row: 1;
-    grid-column: 1;
-    
 }
 
 .family {
     grid-column: 2;
     width: 100%;
+    border-radius: 15px 0 0 15px;
 }
