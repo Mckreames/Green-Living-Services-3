@@ -286,11 +286,13 @@ ul a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     justify-items: center;
-    margin: auto;
+    align-items: center;
+    /* background: linear-gradient(white 5%, rgb(219, 235, 219)); */
+    /* margin: auto; */
 }
 
 .icon {
-    width: 100px
+    width: 100px;
 }
 
 .top1 {
@@ -349,3 +351,35 @@ ul a {
     color: var(--orange);
 }
 
+.gbwi-declaration {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+}
+
+.header-sec-gbwi {
+    text-align: center;
+    width: 100%;
+    color: var(--green);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.gbwi {
+    font-size: 2rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.family {
+    grid-column: 2;
+    width: 100%;
+}
