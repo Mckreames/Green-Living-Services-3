@@ -355,6 +355,7 @@ ul a {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
     background-color: white;
 }
 
@@ -377,6 +378,7 @@ ul a {
     text-align: center;
     grid-row: 1;
     grid-column: 1;
+    
 }
 
 .family {
