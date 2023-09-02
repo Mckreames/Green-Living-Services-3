@@ -485,24 +485,118 @@ ul a {
     grid-column: span 2;
 }
 
+/* form {
+
+}
+
 #register {
     border-radius: 15px;
     width: 90%;
     color: green;
 }
 
+label {
+    display: block;
+}
+
 .name-email-phone {
+    display: grid;
     border-radius: 15px 15px 0 0;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
 }
 
 .first-name {
-    width: 100%;
+
 }
 
 .last-name {
-    width: 50%;
+
 }
 
 .email {
-    width: 50%;
-}
+    width: 100%;
+} */
+
+form {
+    width: 90%;
+    padding: 2em;
+    border-radius: 15px;
+    background: var(--green);
+  }
+  
+  fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    color: #df8f16
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 20px 0 0;
+    width: 90%;
+    min-height: 3rem;
+    font-size: 20px;
+    /*padding: 0 10vw; */
+  }
+  
+  input, textarea {
+    background: white;
+    border: 1px solid #0a0a23;
+    color: black;
+    text-align: center;
+    border-radius: 20px
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #df8f16;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  a {
+    color: #0000ff;
+    font-weight: bold;
+  }
+
+  ::placeholder {
+    color: rgb(153, 153, 153)
+  }
+  
+  input[class="section1"] {
+    font-size: 20px;
+  }
+
+  /* End of form dump */
+
+  #address {
+    grid-column: span 2;
+  }
