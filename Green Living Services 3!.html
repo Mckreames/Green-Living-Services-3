@@ -113,38 +113,39 @@
 
         <section class="contact">
             <h1 class="header-sec we-will"><span class="black">When the other guys just won't cut it,</span><br>WE. WILL.</h1>
-            <div class="form">
-                <form action='https://register-demo.freecodecamp.org' id="register">
-                    <fieldset>
-                    <label for="first-name">First Name: <input id="first-name" name="first-name" type="text" placeholder="John" required /></label>
-                    <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" placeholder="Deere" required /></label>
-                    <label for="email">Email: <input id="email" name="email" type="email" placeholder=" I<3Grass@GreenGiant.net" required /></label>
-                    <label for="number">Phone# (In the ###-###-#### format): <input id="number" name="number" type="tel" placeholder="423-555-5555" required /></label>
-                    <label for="address">Address: <input id="address" name="address" type="text" placeholder="123 Green Grass Way" /></label>
-                    </fieldset>
-                    <fieldset>
+            <form action='https://register-demo.freecodecamp.org' id="register">
+
+                <fieldset class="name-email-phone">
+                    <label for="first-name" class="fist-name">First Name: <input id="first-name" name="first-name" type="text" placeholder="John" required /></label>
+                    <label for="last-name" class="last-name">Last Name: <input id="last-name" name="last-name" type="text" placeholder="Deere" required /></label>
+                    <label for="email" class="email">Email: <input id="email" name="email" type="email" placeholder=" I<3Grass@GreenGiant.net" required /></label>
+                    <label for="number" class="number">Phone# (In the ###-###-#### format): <input id="number" name="number" type="tel" placeholder="423-555-5555" required /></label>
+                    <label for="address" class="address">Address: <input id="address" name="address" type="text" placeholder="123 Green Grass Way" /></label>
+                </fieldset>
+
+                <fieldset>
                     <label for="terms-and-conditions" name="terms-and-conditions">
                         <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
                     </label>
-                    </fieldset>
-                    <fieldset>
+                </fieldset>
+
+                <fieldset>
                     <label for="referrer">How did you hear about us?
-                        <select id="referrer" name="referrer">
-                        <option value="">(select one)</option>
-                        <option value="1">Family member</option>
-                        <option value="2">Friend</option>
-                        <option value="3">Our ads</option>
-                        <option value="4">Our truck</option>
-                        <option value="5">Other</option>
-                        </select>
-                    </label>
-                    <label for="comments">Anything we should know about your yard?
-                        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I'd like weed killer sprayed... My house is hard to find...  "></textarea>
-                    </label>
-                    </fieldset>
-                    <input type="submit" value="Submit" />
-                </form>
-            </div>
+                    <select id="referrer" name="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">Family member</option>
+                    <option value="2">Friend</option>
+                    <option value="3">Our ads</option>
+                    <option value="4">Our truck</option>
+                    <option value="5">Other</option>
+                    </select>
+                </label>
+                <label for="comments">Anything we should know about your yard?
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I'd like weed killer sprayed... My house is hard to find...  "></textarea>
+                </label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
         </section>
 
     <form>

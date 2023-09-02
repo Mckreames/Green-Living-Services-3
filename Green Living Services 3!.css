@@ -478,13 +478,31 @@ ul a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
+    justify-items: center;
 }
 
 .we-will {
     grid-column: span 2;
 }
 
-.form {
+#register {
+    border-radius: 15px;
     width: 90%;
-    margin: auto;
+    color: green;
+}
+
+.name-email-phone {
+    border-radius: 15px 15px 0 0;
+}
+
+.first-name {
+    width: 100%;
+}
+
+.last-name {
+    width: 50%;
+}
+
+.email {
+    width: 50%;
 }
