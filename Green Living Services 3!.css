@@ -75,6 +75,12 @@ nav ul {
     /* border: 1px solid black; */
 }
 
+nav li :hover {
+    color: var(--orange);
+    text-decoration: underline;
+    text-decoration-color: var(--orange);
+}
+
 .nav-logo {
     margin-left: 4rem;
     width: 150px;
