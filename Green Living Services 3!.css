@@ -51,7 +51,7 @@ header {
     position: fixed;
     background: linear-gradient(to top, rgba(107, 216, 85, 0.9), white 10%);
     opacity: 95%;
-    z-index: 1;
+    z-index: 1000;
     transition: transform 0.3s ease;
 }
 
@@ -111,6 +111,9 @@ ul a {
     height: 50rem;
     /* border: 1px solid blue; */
 }
+
+/* .carousel-sect {
+        height: 40rem; */
 
 .carousel {
     /* border: 1px solid black; */
@@ -894,4 +897,13 @@ footer {
     text-align: center;
     grid-column: 3;
 
+}
+
+
+
+/* 4:3 Aspect Ratio */
+@media (min-aspect-ratio: 4/3) {
+    .header-contact {
+        margin-left: 0;
+    }
 }
