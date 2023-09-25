@@ -283,7 +283,7 @@ ul a {
 }
 
 .arrow {
-    z-index: 999;
+    z-index: 9;
     height: 5rem;
     width: 5rem;
     border: 1px solid black;
