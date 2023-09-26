@@ -29,6 +29,8 @@ html {
 body {
     margin: 1rem 2rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
+    width: 100%;
+    height: 100%;
     /* background-color: lightgrey; */
     /* border: 1px solid black; */
 }
@@ -899,6 +901,18 @@ footer {
 
 }
 
+/* 16:10 Aspect Ratio (My Laptop) */
+@media (max-aspect-ratio: 16/10) {
+    .header-contact {
+        margin-left: -12rem;
+    }
+    ul a {
+        font-size: 1.3rem;
+    }
+    nav ul {
+        padding: 20px 0px;
+    }
+}
 
 /* 4:3 Aspect Ratio */
 @media (max-aspect-ratio: 4/3) {
