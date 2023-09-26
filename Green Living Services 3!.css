@@ -900,10 +900,11 @@ footer {
 }
 
 
-
 /* 4:3 Aspect Ratio */
-@media (min-aspect-ratio: 4/3) {
+@media (max-aspect-ratio: 4/3) {
     .header-contact {
         margin-left: 0;
     }
+
+
 }
