@@ -901,16 +901,30 @@ footer {
 
 }
 
-/* 16:10 Aspect Ratio (My Laptop) */
+/* 16:10 Aspect Ratio (My Laptop) 1280x800 screen/ 1280x675 browser*/
 @media (max-aspect-ratio: 16/10) {
     .header-contact {
         margin-left: -12rem;
     }
+
     ul a {
         font-size: 1.3rem;
     }
+
     nav ul {
         padding: 20px 0px;
+    }
+
+    .carousel-watb-top {
+        left: 43rem;
+        font-size: 4rem;
+
+    }
+
+    .carousel-watb-bottom {
+        top: 6rem;
+        left: 42rem;
+        font-size: 4rem;
     }
 }
 
