@@ -901,7 +901,17 @@ footer {
 
 }
 
-/* 16:10 Aspect Ratio (My Laptop) 1280x800 screen/ 1280x675 browser*/
+/* 4:3 Aspect Ratio (Traditional Displays) 1024x768, 1280x960
+    16:9 Aspect Ratio (Wider Displays) 1920x1080, 2560x1440*/
+@media (max-aspect-ratio: 4/3) {
+    .header-contact {
+        margin-left: 0;
+    }
+
+
+}
+
+/* 16:10 Aspect Ratio (Tablets and My Laptop) 1280x800 screen/ 1280x675 browser*/
 @media (max-aspect-ratio: 16/10) {
     /* header stuff */
     .header-contact {
@@ -962,13 +972,4 @@ footer {
         font-size: 1rem;
         
     }
-}
-
-/* 4:3 Aspect Ratio */
-@media (max-aspect-ratio: 4/3) {
-    .header-contact {
-        margin-left: 0;
-    }
-
-
 }
