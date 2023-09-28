@@ -29,51 +29,59 @@ html {
 body {
     margin: 1rem 2rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
+    padding: 0 2rem;
     /* background-color: lightgrey; */
     /* border: 1px solid black; */
-}
-
-.grid {
-    display: grid;
-    /* gap: 20px; */
 }
 
 /* Navigation Bar Stuff */
 
 header {
-    display: grid;
+    display: flex;
     margin-top: -7rem;
     width: 97%;
-    grid-template-columns: repeat(1fr, 4);
     align-items: center;
-    gap: 0px;
+
     border-radius: 15px;
     position: fixed;
     background: linear-gradient(to top, rgba(107, 216, 85, 0.9), white 10%);
     opacity: 95%;
     z-index: 1000;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
+}
+
+.nav-logo {
+    margin-left: 4rem;
+    width: 150px;
+    list-style: none;
+    float: left;
+    grid-column: 1;
+    grid-row: 1;
+    /* position: absolute; */
 }
 
 .header-contact {
     color: var(--green);
     font-weight: bold;
-    grid-column: span 2;
-    margin-left: -16rem;
+    padding-left: 4rem;
 }
 
 nav {
-    grid-column: 4;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
 }
 
 nav ul {
-    /* grid-column: 4; */
     display: flex;
     flex-wrap: wrap;
     justify-content: Space-evenly;
     align-items: center;
     padding: 20px 20px;
-    /* border: 1px solid black; */
+}
+
+nav li {
+    padding: 0 3rem;
 }
 
 nav li :hover {
@@ -82,12 +90,6 @@ nav li :hover {
     text-decoration-color: var(--orange);
 }
 
-.nav-logo {
-    margin-left: 4rem;
-    width: 150px;
-    list-style: none;
-    /* position: absolute; */
-}
 
 .nav-link {
     list-style: none;
@@ -125,24 +127,25 @@ ul a {
     /* border: 1px solid black; */
 }
 
-.carousel img {
+/* .carousel img {
     width: 100%;
     left: 0;
     position: absolute;
     object-fit: fill;
-    border-radius: 15px;
-    /* border: 1px solid black; */
-}
+    border: 1px solid black;
+} */
 
 .top-img {
+    border-radius: 15px;
     opacity: 100%;
+    position: relative;
 }
 
 .carousel-overlay {
     position: absolute;
     top: 19rem;
-    left: 8rem;
-    width: 85%;
+    left: 13rem;
+    width: 80%;
     /* border: 1px solid black; */
     border-radius: 15px;
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgb(255, 255, 255, 0.1), rgba(255, 255, 255, 1) 75%);
@@ -160,13 +163,14 @@ ul a {
 .carousel-logo {
     width: 40%;
     padding-left: 4rem;
+    float: left;
 }
 
 /* WE ARE THE BEST */
 .carousel-watb-top {
     position: absolute;
     display: inline-block;
-    left: 63rem;
+    left: 63%;
     /* color: rgb(255, 255, 255); */
     color: var(--orange);
     text-decoration: underline;
@@ -177,8 +181,8 @@ ul a {
 .carousel-watb-bottom {
     position: absolute;
     display: inline-block;
-    top: 10rem;
-    left: 61rem;
+    top: 35%;
+    left: 61%;
     /* color: rgb(255, 255, 255); */
     color: var(--orange);
     text-decoration: underline;
@@ -902,19 +906,12 @@ footer {
 /* 4:3 Aspect Ratio (Traditional Displays) 1024x768, 1280x960
     16:9 Aspect Ratio (Wider Displays) 1920x1080, 2560x1440*/
 @media  (min-width: 1441px) {
-    .header-contact {
-        margin-left: 0;
-    }
-
 
 }
 
 /* 16:10 Aspect Ratio (Tablets and My Laptop) 1280x800 screen/ 1280x675 browser*/
 @media (min-width: 1025px) and (max-width: 1440px) {
     /* header stuff */
-    .header-contact {
-        margin-left: -12rem;
-    }
 
     ul a {
         font-size: 1.3rem;
