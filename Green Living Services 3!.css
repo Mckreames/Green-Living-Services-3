@@ -76,7 +76,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: Space-evenly;
     align-items: center;
-    padding: 20px 20px;
+    padding: 1rem 1rem;
 }
 
 nav li {
@@ -113,15 +113,12 @@ ul a {
     /* border: 1px solid blue; */
 }
 
-/* .carousel-sect {
-        height: 40rem; */
-
 .carousel {
     /* border: 1px solid black; */
     height: 90%;
     width: 90%;
-    padding: 20px;
-    position: relative;
+    padding: 1rem;
+    /* position: relative; */
     overflow: hidden;
     /* border: 1px solid black; */
 }
@@ -155,7 +152,7 @@ ul a {
     -webkit-text-fill-color: var(--orange);
     /* text-fill-color: white; */
     font-weight: bold;
-    font-size: 80px;
+    font-size: 5rem;
     letter-spacing: 0.6rem;
 }
 
@@ -190,7 +187,7 @@ ul a {
 
 }
 
-.watb {
+/* .watb {
     margin-top: 2rem;
     text-align: center;
     font-size: 80px;
@@ -198,10 +195,10 @@ ul a {
     font-family: arial;
     letter-spacing: 0.6rem;
     color: var(--orange);
-    /* color: #186d1e; */
+    color: #186d1e;
     text-decoration: underline;
     text-decoration-color: var(--green);
-}
+} */
 
 /* Declaration */
 
@@ -913,23 +910,46 @@ footer {
 @media (min-width: 1025px) and (max-width: 1440px) {
     /* header stuff */
 
+    header {
+        margin: -7rem 0 0 -1.5rem;
+    }
+
+    nav {
+    }
+
     ul a {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     nav ul {
-        padding: 20px 0px;
+
     }
 
     /* splash img thing */
+
+    .carousel-sect {
+        height: 45rem;
+        width: 140%;
+    }
+
+    .carousel {
+        width: 140%;
+    }
+
+    .carousel-overlay {
+        left: 5rem;
+        width: 120%;
+    }
+
+
     .carousel-watb-top {
-        left: 43rem;
+        left: 49rem;
         font-size: 4rem;
     }
 
     .carousel-watb-bottom {
         top: 6rem;
-        left: 42rem;
+        left: 48rem;
         font-size: 4rem;
     }
 
