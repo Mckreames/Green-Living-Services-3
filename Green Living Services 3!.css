@@ -29,7 +29,7 @@ html {
 body {
     margin-top: 1rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     /* background-color: lightgrey; */
     /* border: 1px solid black; */
 }
@@ -911,7 +911,200 @@ footer {
 
 /* 4:3 Aspect Ratio (Traditional Displays) 1024x768, 1280x960
     16:9 Aspect Ratio (Wider Displays) 1920x1080, 2560x1440*/
-@media  (min-width: 1441px) {
+@media  (min-width: 2560px) {
+    body {
+        width: 98%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+    body {
+        width: 99%;
+    }
+
+    header {
+        width: 86%;
+    }
+
+    /* Splash Sect */
+
+    .carousel-watb-top {
+        font-size: .7em;
+    }
+
+    .carousel-watb-bottom {
+        font-size: .7em;
+    }
+
+    /* Declaration Sect */
+
+    .header-sec {
+        font-size: 2em;
+    }
+
+    .p-sec1 {
+        font-size: 1em;
+        line-height: 1.5;
+
+    }
+
+    .p-sec2 {
+        font-size: 1em;
+        line-height: 1.5;
+
+    }
+
+    /* What We Do */
+
+    .icon {
+        width: 5em;
+    }
+
+    .list-grid {
+        font-size: 1.8em;
+    }
+
+    /* Get Back to Whats Important */
+
+    .header-sec-gbwi {
+        font-size: 2em;
+    }
+
+    .gbwi {
+        font-size: 1em;
+    }
+
+    /* Testimonial Sect */
+
+    .testimonial {
+        width: 85%;
+    }
+
+    .testimonial-box {
+        width: 95%;
+    }
+
+    /* Contact Sect */
+
+    .contact {
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .grass-banner {
+        margin-bottom: -10.8rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        width: 119%;
+    }
+
+    header {
+        width: 80%;
+    }
+
+    nav li {
+        padding: 1em;
+    }
+
+    ul a {
+        font-size: 1.2em
+    }
+
+    /* Splash Sect */
+
+    .carousel-sect {
+        height: 40em;
+    }
+
+    .carousel-overlay {
+        left: 10%;
+        width: 100%;
+    }
+
+    .carousel-watb-top {
+        font-size: .7em;
+    }
+
+    .carousel-watb-bottom {
+        font-size: .7em;
+    }
+
+    /* Declaration Sect */
+
+    .header-sec {
+        font-size: 2em;
+    }
+
+    .p-sec1 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .p-sec2 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    /* What We Do */
+
+    .icon {
+        width: 4em;
+    }
+
+    .list-grid {
+        font-size: 1.3em;
+    }
+
+    /* Get Back to Whats Important */
+
+    .header-sec-gbwi {
+        font-size: 2em;
+    }
+
+    .gbwi {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    /* Testimonial */
+
+    .testimonial {
+        width: 90%;
+        padding: 5rem;
+    }
+
+    .testimonial-box {
+        width: 95%;
+    }
+
+    .testimonial-img {
+        width: 7em;
+        height: 7em;
+    }
+
+    .testimony {
+        font-size: 1em;
+    }
+
+    /* Contact Sect */
+
+    .contact {
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .free-quote {
+        font-size: 2.5em;
+    }
+
+    .grass-banner {
+        margin-bottom: -3.8em;
+    }
+
 
 }
 
