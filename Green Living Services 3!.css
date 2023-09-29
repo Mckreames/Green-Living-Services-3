@@ -1444,3 +1444,223 @@ footer {
         width: 140%;
     }
 }
+
+@media (max-width: 384px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* splash img thing */
+
+    .carousel-sect {
+        margin-top: 0;
+        height: 15rem;
+        width: 150%;
+        border-radius: 0;
+    }
+
+    .carousel {
+        width: 100%;
+        padding: 0;
+        margin-top: -3rem;
+        border-radius: 0;
+    }
+
+    .carousel-overlay {
+        top: 3rem;
+        left: 0.3rem;
+        width: 114%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 40%, rgb(255, 255, 255, 0.1), rgba(255, 255, 255, 1) 75%);
+
+
+    }
+
+    .carousel-logo {
+        width: 40%;
+        padding-left: 1rem;
+    }
+
+
+    .carousel-watb-top {
+        top: -1rem;
+        left: 15rem;
+        font-size: 1.5rem;
+
+    }
+
+    .carousel-watb-bottom {
+        top: 2rem;
+        left: 14rem;
+        font-size: 1.5rem;
+    }
+
+    /* Declaration */
+    .declaration-img {
+        width: 130%;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .declaration {
+        margin: 0;
+        width: 62.5%
+    }
+
+    .actual-carousel {
+        display: none;
+    }
+    
+    
+    /* about us */
+    .header-sec {
+        font-size: 2rem;
+    }
+    
+    .p-sec1 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .p-sec2 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .em-orange {
+        color: var(--orange);
+        font-size: 1.4rem;
+    }
+      
+    .emphasis {
+        font-size: 1.4rem;
+        color: var(--green);
+    }
+
+    /* What we do */
+    .what-we-do-img {
+        display: none;
+        width: 140%;
+    }
+    /* Get Back What's Important Sect */
+    .gbwi-declaration {
+        width: 117%;
+        display: block;
+    }
+
+    .header-sec-gbwi {
+        font-size: 2rem;
+    }
+
+    .gbwi-div {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gbwi {
+        font-size: 1rem;
+        
+    }
+
+    .first-family {
+        display: block;
+        width: 28rem;
+        margin: 0;
+
+    }
+
+    .family {
+        display: none;
+
+    }
+
+    /* Testimonial */
+    .testimonial {
+        width: 120%;
+        padding: 4rem;
+        margin: auto;
+        margin-left: 2rem;
+    }
+
+    .testimonial1 {
+        display: none;
+    }
+
+    .testimonial3 {
+        display: none;
+    }
+
+    .testimonial-box {
+        width: 95%
+    }
+
+    .testimonial-img {
+        width: 5rem;
+        height: 5rem;
+    }
+ 
+    .testimony {
+        font-size: 1rem;
+    }
+
+    /* Contact */
+    .contact {
+        width: 109%;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        display: block
+    }
+
+    form {
+        width: 92%;
+        margin-bottom: 5rem;
+    }
+
+    .free-quote {
+        font-size: 1.799rem;
+    }
+
+    .call-now-div {
+        line-height: 5rem;
+        width: 105.4%;
+    }
+
+    .when-the-other-guys-wont {
+        margin: 5rem 0;
+    }
+
+    .big-bold {
+        font-size: 5rem
+    }
+
+    .call-now {
+        font-size: 4rem;
+    }
+
+    .phone-number {
+        font-size: 3rem;
+    }
+
+    .grass-banner {
+        margin-bottom: -2.3rem;
+    }
+
+    /* Footer */
+
+    footer {
+        width: 120%;
+        margin-top: 5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .rights {
+        grid-column-start: span 2;
+        
+    }
+}
