@@ -1544,8 +1544,11 @@ footer {
 
     /* What we do */
     .what-we-do-img {
-        display: none;
         width: 140%;
+    }
+
+    .icon-grid {
+        display: none;
     }
     /* Get Back What's Important Sect */
     .gbwi-declaration {
