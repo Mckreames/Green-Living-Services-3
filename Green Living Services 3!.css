@@ -38,8 +38,8 @@ body {
 
 header {
     display: flex;
-    margin: -7rem 0 0 -0.5rem;
-    width: 97%;
+    margin: -7rem auto;
+    width: 100%;
     align-items: center;
     border-radius: 15px;
     position: fixed;
@@ -1106,6 +1106,10 @@ footer {
     }
 
 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
 }
 
 /* 16:10 Aspect Ratio (Tablets and My Laptop) 1280x800 screen/ 1280x675 browser*/
