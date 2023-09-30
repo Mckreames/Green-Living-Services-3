@@ -29,6 +29,7 @@ html {
 body {
     margin-top: 1rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
+    margin: 0 auto;
     /* padding: 0 2rem; */
     /* background-color: lightgrey; */
     /* border: 1px solid black; */
@@ -1109,7 +1110,124 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    
+    body {
+        width: 152%;
+    }
+
+    header {
+        width: 77.5%;
+    }
+
+    nav li {
+        padding: 1em;
+    }
+
+    ul a {
+        font-size: 1.2em
+    }
+
+    /* Splash Sect */
+
+    .carousel-sect {
+        height: 30rem;
+    }
+
+    .carousel {
+        height: 80%;
+    }
+
+    .carousel-overlay {
+        top: 15rem;
+        left: 7rem;
+        width: 125%;
+    }
+
+    .carousel-watb-top {
+        font-size: .55em;
+    }
+
+    .carousel-watb-bottom {
+        font-size: .55em;
+    }
+
+    /* Declaration Sect */
+
+    .declaration {
+        padding: .5rem
+    }
+
+    .header-sec {
+        font-size: 2em;
+    }
+
+    .p-sec1 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .p-sec2 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    /* What We Do */
+
+    .icon {
+        width: 4em;
+    }
+
+    .list-grid {
+        font-size: 1.1em;
+    }
+
+    /* Get Back to Whats Important */
+
+    .header-sec-gbwi {
+        font-size: 2em;
+        padding: .5rem;
+    }
+
+    .gbwi {
+        font-size: 1em;
+        padding: .5rem;
+    }
+
+    /* Testimonial Sect */
+
+    .testimonial {
+        width: 95%;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .testimonial-img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .testimony {
+        font-size: 1em;
+    }
+
+    /* Contact Sect */
+
+    .contact {
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .free-quote {
+        font-size: 2.4rem;
+    }
+
+    .big-bold {
+        font-size: 6rem;
+    }
+
+    .grass-banner {
+        margin-bottom: -3.7rem;
+    }
+
 }
 
 /* 16:10 Aspect Ratio (Tablets and My Laptop) 1280x800 screen/ 1280x675 browser*/
