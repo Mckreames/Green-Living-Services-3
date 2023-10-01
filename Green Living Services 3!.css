@@ -1000,6 +1000,7 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     body {
+        /* width: 119%; */
         width: 100%;
     }
 
@@ -1111,7 +1112,8 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
-        width: 152%;
+        /* width: 152%; */
+        width: 100%;
     }
 
     header {
@@ -1228,6 +1230,31 @@ footer {
         margin-bottom: -3.7rem;
     }
 
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    body {
+        width: 300%;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* Splash Sect */
+
+    .carousel-sect {
+        margin-top: 0;
+        display: none;
+    }
+
+    
+
+    /* Declaration Sect */
+
+    .declaration-img {
+        margin-top: 25rem;
+    }
 }
 
 /* 16:10 Aspect Ratio (Tablets and My Laptop) 1280x800 screen/ 1280x675 browser*/
