@@ -1000,7 +1000,7 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
     body {
-        width: 119%;
+        width: 100%;
     }
 
     header {
