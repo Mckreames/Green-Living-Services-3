@@ -704,6 +704,8 @@ ul a {
     grid-template-columns: repeat(2, 1fr);
     background-color: white;
     justify-items: center;
+    align-items: center;
+    height: 100%;
     gap: 5rem;
     box-shadow: 5px 5px 10px #888;
 
@@ -1234,7 +1236,7 @@ footer {
 
 @media (min-width: 425px) and (max-width: 767px) {
     body {
-        width: 300%;
+        width: 176%;
     }
 
     header {
@@ -1248,12 +1250,113 @@ footer {
         display: none;
     }
 
+    .carousel-overlay {
+        background: transparent;
+        position: unset;
+        margin: 5rem auto;
+    }
+
+    .carousel-logo {
+        width: 6em;
+        padding-left: 0;
+        float: none;
+        border-top: 5px solid var(--green);
+        border-bottom: 5px solid var(--green);
+        border-radius: 15px;
+    }
+
+    .carousel-watb-top {
+        display: none;
+    }
+
+    .carousel-watb-bottom {
+        display: none;
+    }
+
     
 
     /* Declaration Sect */
 
     .declaration-img {
-        margin-top: 25rem;
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .actual-carousel {
+        display: none;
+    }
+
+    /* What We Do */
+
+    .upside-down-grass {
+        display: none;
+    }
+
+    .icon-grid {
+        display: none;
+    }
+
+    .first-family {
+        display: block;
+        width: 50em;
+    }
+
+
+
+    /* Get Back to Whats Important */
+
+    .gbwi-declaration {
+        display: block;
+    }
+
+    .family {
+        display: none;
+    }
+
+    /* Testimony Sect */
+
+    .testimonial {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    /* Contact Sect */
+
+    .contact {
+        padding: 1.5em;
+        gap: 0em;
+    }
+
+    .free-quote {
+        font-size: 1.58rem;
+    }
+
+    .call-now-div {
+        line-height: 6rem;
+    }
+
+    .big-bold {
+        font-size: 1.5em;
+    }
+
+    .call-now {
+        font-size: 3em;
+    }
+
+    .phone-number {
+        font-size: 2em;
+    }
+
+    .grass-banner {
+        display: none;
+    }
+
+    footer {
+        
+    }
+
+    .rights {
+        grid-column: span 5;
     }
 }
 
