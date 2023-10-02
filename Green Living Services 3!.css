@@ -1351,8 +1351,320 @@ footer {
         display: none;
     }
 
-    footer {
-        
+    .rights {
+        grid-column: span 5;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    body {
+        width: 163%;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* Splash Sect */
+
+    .carousel-sect {
+        margin-top: 0;
+        display: none;
+    }
+
+    .carousel-overlay {
+        background: transparent;
+        position: unset;
+        margin: 5rem auto;
+    }
+
+    .carousel-logo {
+        width: 6em;
+        padding-left: 0;
+        float: none;
+        border-top: 5px solid var(--green);
+        border-bottom: 5px solid var(--green);
+        border-radius: 15px;
+    }
+
+    .carousel-watb-top {
+        display: none;
+    }
+
+    .carousel-watb-bottom {
+        display: none;
+    }
+
+    
+
+    /* Declaration Sect */
+
+    .declaration-img {
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .declaration {
+        padding: .5rem
+    }
+
+    .header-sec {
+        font-size: 2em;
+    }
+
+    .p-sec1 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .p-sec2 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .actual-carousel {
+        display: none;
+    }
+
+    /* What We Do */
+
+    .upside-down-grass {
+        display: none;
+    }
+
+    .icon-grid {
+        display: none;
+    }
+
+    .first-family {
+        display: block;
+        width: 40em;
+    }
+
+
+
+    /* Get Back to Whats Important */
+
+    .header-sec-gbwi {
+        font-size: 2em;
+        padding: .5rem;
+    }
+
+    .gbwi-div {
+        padding: .5em;
+    }
+
+    .gbwi {
+        font-size: 1em;
+        padding: .5rem;
+    }
+
+    .gbwi-declaration {
+        display: block;
+    }
+
+    .family {
+        display: none;
+    }
+
+    /* Testimony Sect */
+
+    .testimonial {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        padding: 2em;
+    }
+
+    /* Contact Sect */
+
+    .contact {
+        padding: 1.5em;
+        gap: 0em;
+        display: block;
+    }
+
+    .free-quote {
+        font-size: 1.58rem;
+    }
+
+    .call-now-div {
+        line-height: 6rem;
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .big-bold {
+        font-size: 2em;
+    }
+
+    .call-now {
+        font-size: 3em;
+    }
+
+    .phone-number {
+        font-size: 2em;
+    }
+
+    .grass-banner {
+        display: none;
+    }
+
+    .rights {
+        grid-column: span 5;
+    }
+}
+
+@media (max-width: 374px) {
+    body {
+        width: 166%;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* Splash Sect */
+
+    .carousel-sect {
+        margin-top: 0;
+        display: none;
+    }
+
+    .carousel-overlay {
+        background: transparent;
+        position: unset;
+        margin: 5rem auto;
+    }
+
+    .carousel-logo {
+        width: 6em;
+        padding-left: 0;
+        float: none;
+        border-top: 5px solid var(--green);
+        border-bottom: 5px solid var(--green);
+        border-radius: 15px;
+    }
+
+    .carousel-watb-top {
+        display: none;
+    }
+
+    .carousel-watb-bottom {
+        display: none;
+    }
+
+    
+
+    /* Declaration Sect */
+
+    .declaration-img {
+        margin-top: 5rem;
+        display: block;
+    }
+
+    .declaration {
+        padding: .5rem
+    }
+
+    .header-sec {
+        font-size: 2em;
+    }
+
+    .p-sec1 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .p-sec2 {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .actual-carousel {
+        display: none;
+    }
+
+    /* What We Do */
+
+    .upside-down-grass {
+        display: none;
+    }
+
+    .icon-grid {
+        display: none;
+    }
+
+    .first-family {
+        display: block;
+        width: 40em;
+    }
+
+
+
+    /* Get Back to Whats Important */
+
+    .header-sec-gbwi {
+        font-size: 2em;
+        padding: .5rem;
+    }
+
+    .gbwi-div {
+        padding: .5em;
+    }
+
+    .gbwi {
+        font-size: 1em;
+        padding: .5rem;
+    }
+
+    .gbwi-declaration {
+        display: block;
+    }
+
+    .family {
+        display: none;
+    }
+
+    /* Testimony Sect */
+
+    .testimonial {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        padding: 2em;
+    }
+
+    /* Contact Sect */
+
+    .contact {
+        padding: 1.5em;
+        gap: 0em;
+        display: block;
+    }
+
+    .free-quote {
+        font-size: 1.58rem;
+    }
+
+    .call-now-div {
+        line-height: 6rem;
+        margin-top: 2em;
+        width: 100%;
+    }
+
+    .big-bold {
+        font-size: 2em;
+    }
+
+    .call-now {
+        font-size: 3em;
+    }
+
+    .phone-number {
+        font-size: 2em;
+    }
+
+    .grass-banner {
+        display: none;
     }
 
     .rights {
@@ -1363,7 +1675,7 @@ footer {
 /* 16:10 Aspect Ratio (Tablets and My Laptop) 1280x800 screen/ 1280x675 browser*/
 /* @media (min-width: 1025px) and (max-width: 1440px) { */
 
-@media (max-width: 384px) {
+/* @media (max-width: 384px) {
     body {
         margin: 0;
         padding: 0;
@@ -1373,7 +1685,6 @@ footer {
         display: none;
     }
 
-    /* splash img thing */
 
     .carousel-sect {
         margin-top: 0;
@@ -1417,7 +1728,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    /* Declaration */
+    
     .declaration-img {
         width: 130%;
         display: block;
@@ -1435,7 +1746,7 @@ footer {
     }
     
     
-    /* about us */
+   
     .header-sec {
         font-size: 2rem;
     }
@@ -1460,7 +1771,7 @@ footer {
         color: var(--green);
     }
 
-    /* What we do */
+ 
     .what-we-do-img {
         width: 140%;
     }
@@ -1468,7 +1779,7 @@ footer {
     .icon-grid {
         display: none;
     }
-    /* Get Back What's Important Sect */
+   
     .gbwi-declaration {
         width: 117%;
         display: block;
@@ -1500,7 +1811,7 @@ footer {
 
     }
 
-    /* Testimonial */
+ 
     .testimonial {
         width: 120%;
         padding: 4rem;
@@ -1529,7 +1840,7 @@ footer {
         font-size: 1rem;
     }
 
-    /* Contact */
+
     .contact {
         width: 109%;
         padding: 0;
@@ -1572,7 +1883,7 @@ footer {
         margin-bottom: -2.3rem;
     }
 
-    /* Footer */
+
 
     footer {
         width: 120%;
@@ -1584,4 +1895,4 @@ footer {
         grid-column-start: span 2;
         
     }
-}
+} */
