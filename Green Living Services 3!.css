@@ -141,8 +141,9 @@ ul a {
 .carousel-overlay {
     position: absolute;
     top: 19rem;
-    left: 13rem;
+    left: 13%;
     width: 80%;
+    overflow: hidden;
     /* border: 1px solid black; */
     border-radius: 15px;
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgb(255, 255, 255, 0.1), rgba(255, 255, 255, 1) 75%);
@@ -1027,15 +1028,14 @@ footer {
 
     .carousel-overlay {
         left: 10%;
-        width: 100%;
     }
 
     .carousel-watb-top {
-        font-size: .7em;
+        font-size: .5em;
     }
 
     .carousel-watb-bottom {
-        font-size: .7em;
+        font-size: .5em;
     }
 
     /* Declaration Sect */
@@ -1142,17 +1142,16 @@ footer {
     }
 
     .carousel-overlay {
-        top: 15rem;
-        left: 7rem;
-        width: 125%;
+        top: 25%;
+        left: 10%;
     }
 
     .carousel-watb-top {
-        font-size: .55em;
+        font-size: .3em;
     }
 
     .carousel-watb-bottom {
-        font-size: .55em;
+        font-size: .3em;
     }
 
     /* Declaration Sect */
