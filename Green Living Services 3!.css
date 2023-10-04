@@ -39,8 +39,8 @@ body {
 
 header {
     display: flex;
-    margin: -7rem auto;
-    width: 100%;
+    margin-top: -7rem;
+    width: 90%;
     align-items: center;
     border-radius: 15px;
     position: fixed;
@@ -73,7 +73,7 @@ nav {
 
 nav ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: Space-evenly;
     align-items: center;
     padding: 1rem 1rem;
@@ -1122,8 +1122,16 @@ footer {
         width: 100%;
     }
 
-    header {
-        width: 100%;
+    /* header {
+        max-width: 100%;
+    } */
+
+    /* nav {
+        margin-left: 1%;
+    } */
+
+    .nav-logo {
+        width: 60px;
     }
 
     nav li {
