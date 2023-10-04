@@ -846,6 +846,7 @@ input[class="section1"] {
 }
 
 .call-now-div {
+    position: relative;
     line-height: 8rem;
     height: 100%;
     padding: 0;
@@ -892,8 +893,11 @@ input[class="section1"] {
 
 .grass-banner {
     width: 100%;
+    position: absolute;
+    /* top: 83.2%; */
+    bottom: 6%;
     /* margin-bottom: -12.4rem; */
-    margin-bottom: -17.6rem;
+    /* margin-bottom: -17.6rem; */
     border-radius: 0 0 10px 10px;
 }
 
