@@ -55,8 +55,6 @@ header {
     width: 150px;
     list-style: none;
     float: left;
-    grid-column: 1;
-    grid-row: 1;
     /* position: absolute; */
 }
 
@@ -68,6 +66,7 @@ header {
 
 nav {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin-left: auto;
 }
@@ -928,7 +927,7 @@ footer {
     }
 
     header {
-        width: 86%;
+        width: 100%;
     }
 
     /* Splash Sect */
@@ -1009,7 +1008,7 @@ footer {
     }
 
     header {
-        width: 80%;
+        width: 100%;
     }
 
     nav li {
@@ -1120,7 +1119,7 @@ footer {
     }
 
     header {
-        width: 77.5%;
+        width: 100%;
     }
 
     nav li {
