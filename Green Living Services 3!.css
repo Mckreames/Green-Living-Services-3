@@ -30,6 +30,7 @@ body {
     margin-top: 1rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
     margin: 0 auto;
+    overflow-x: hidden;
     /* padding: 0 2rem; */
     /* background-color: lightgrey; */
     /* border: 1px solid black; */
@@ -853,7 +854,7 @@ input[class="section1"] {
     border-radius: 15px;
     border: 4px solid var(--green);
     box-shadow: 5px 5px 10px #888;
-    background: linear-gradient(153deg, rgb(251, 255, 251), rgb(193, 238, 193));
+    background: linear-gradient(rgb(251, 255, 251), rgb(193, 238, 193) 85%, var(--green) 99%);
 }
 
 .when-the-other-guys-wont {
@@ -899,6 +900,7 @@ input[class="section1"] {
     /* margin-bottom: -12.4rem; */
     /* margin-bottom: -17.6rem; */
     border-radius: 0 0 10px 10px;
+    display: none;
 }
 
 footer {
