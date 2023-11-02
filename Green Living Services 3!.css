@@ -30,7 +30,7 @@ body {
     margin-top: 1rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
     margin: 0 auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* padding: 0 2rem; */
     /* background-color: lightgrey; */
     /* border: 1px solid black; */
@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: space-between; 
     margin-top: -7rem;
-    width: 90%;
+    width: 98%;
     align-items: center;
     border-radius: 15px;
     position: fixed;
