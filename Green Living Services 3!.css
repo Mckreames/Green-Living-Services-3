@@ -30,6 +30,7 @@ body {
     margin-top: 1rem;
     background: linear-gradient(rgb(235, 235, 235), rgb(216, 216, 216));
     margin: 0 auto;
+    min-width: 350px;
     /* overflow-x: hidden; */
     /* padding: 0 2rem; */
     /* background-color: lightgrey; */
