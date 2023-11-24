@@ -108,7 +108,6 @@ ul a {
 
 .carousel-sect {
     margin-top: 7rem;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 50rem;
@@ -117,11 +116,11 @@ ul a {
 
 .carousel {
     /* border: 1px solid black; */
-    height: 90%;
-    width: 90%;
+    /* height: 90%;
+    width: 90%; */
     padding: 1rem;
     /* position: relative; */
-    overflow: hidden;
+    overflow:;
     /* border: 1px solid black; */
 }
 
@@ -135,13 +134,15 @@ ul a {
 
 .top-img {
     border-radius: 15px;
-    opacity: 100%;
+    margin-top: 4rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     position: relative;
 }
 
 .carousel-overlay {
     position: absolute;
-    top: 19rem;
     left: 13%;
     width: 80%;
     overflow: hidden;
@@ -219,7 +220,7 @@ ul a {
 }
 
 .declaration {
-    padding: 2rem 4rem;
+    padding: 6rem 4rem;
     row-gap: 0;
     /* width: 90%; */
     margin: 1rem;
@@ -851,7 +852,7 @@ input[class="section1"] {
     position: relative;
     line-height: 8rem;
     height: 100%;
-    padding: 0;
+    padding: 0 5rem;
     border-radius: 15px;
     border: 4px solid var(--green);
     box-shadow: 5px 5px 10px #888;
@@ -928,7 +929,7 @@ footer {
     }
 }
 
-@media (min-width: 1440px) and (max-width: 2559px) {
+@media (min-width: 1400px) and (max-width: 2559px) {
     body {
         width: 99%;
     }
@@ -937,7 +938,20 @@ footer {
         width: 100%;
     }
 
+    nav li {
+        padding: 0 1.5rem;
+    }
+
     /* Splash Sect */
+
+    .carousel {
+        height: 75%;
+    }
+
+    .carousel-overlay {
+        top: 18rem;
+        left: 11%;
+    }
 
     .carousel-watb-top {
         font-size: .7em;
@@ -948,6 +962,11 @@ footer {
     }
 
     /* Declaration Sect */
+
+    .declaration {
+        padding: 1rem 2rem;
+        min-height: 25rem;
+    }
 
     .header-sec {
         font-size: 2em;
@@ -968,11 +987,11 @@ footer {
     /* What We Do */
 
     .icon {
-        width: 5em;
+        width: 4em;
     }
 
     .list-grid {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     /* Get Back to Whats Important */
@@ -1002,13 +1021,21 @@ footer {
         gap: 1em;
     }
 
+    .call-now-div {
+        padding: 0 1rem;
+    }
+
+    .when-the-other-guys-wont {
+        font-size: 2.1rem;
+    }
+
     .grass-banner {
         margin-bottom: -10.8rem;
     }
 
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
     body {
         /* width: 119%; */
         width: 100%;
@@ -1028,12 +1055,21 @@ footer {
 
     /* Splash Sect */
 
+    .top-img {
+        height: 70%;
+    }
+
+    .carousel {
+        height: 100%;
+    }
+
     .carousel-sect {
         height: 40em;
     }
 
     .carousel-overlay {
         left: 10%;
+        top: 30%;
     }
 
     .carousel-watb-top {
@@ -1045,6 +1081,11 @@ footer {
     }
 
     /* Declaration Sect */
+
+    .declaration {
+        padding: 0.5rem 2rem;
+
+    }
 
     .header-sec {
         font-size: 2em;
@@ -1103,6 +1144,15 @@ footer {
 
     /* Contact Sect */
 
+    .call-now-div {
+        padding: 0rem 1rem;
+    }
+
+    .when-the-other-guys-wont {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     .contact {
         padding: 1em;
         gap: 1em;
@@ -1119,22 +1169,27 @@ footer {
 
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     body {
         /* width: 152%; */
         width: 100%;
     }
 
-    /* header {
-        max-width: 100%;
-    } */
+    header {
+        display: block;
+    }
 
-    /* nav {
-        margin-left: 1%;
-    } */
+    .header-contact {
+        margin: auto 0;
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
 
     .nav-logo {
-        /* width: 60px; */
+        margin: 0 auto;
     }
 
     nav li {
@@ -1142,7 +1197,7 @@ footer {
     }
 
     ul a {
-        font-size: 1.2em
+        font-size: 1em
     }
 
     /* Splash Sect */
@@ -1160,38 +1215,51 @@ footer {
         left: 10%;
     }
 
+    .top-img {
+        margin-top: 2%;
+    }
+
     .carousel-watb-top {
-        font-size: .3em;
+        font-size: .4em;
     }
 
     .carousel-watb-bottom {
-        font-size: .3em;
+        font-size: .4em;
     }
 
     /* Declaration Sect */
 
+    .declaration-img {
+        margin-top: 0;
+    }
+
     .declaration {
-        padding: .5rem
+        padding: 0 .5rem;
     }
 
     .header-sec {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .p-sec1 {
         font-size: 1em;
-        line-height: 1.5;
+        line-height: 1.3;
     }
 
     .p-sec2 {
         font-size: 1em;
-        line-height: 1.5;
+        line-height: 1.3;
     }
 
     /* What We Do */
 
     .icon {
         width: 4em;
+        display: none;
+    }
+
+    .icon-grid {
+        display: block;
     }
 
     .list-grid {
@@ -1208,6 +1276,11 @@ footer {
     .gbwi {
         font-size: 1em;
         padding: .5rem;
+    }
+
+    .gbwi-div {
+        padding: 0.8rem;
+        line-height: 1
     }
 
     /* Testimonial Sect */
@@ -1242,15 +1315,19 @@ footer {
         font-size: 6rem;
     }
 
+    .call-now-div {
+        padding: 0;
+    }
+
     .grass-banner {
         margin-bottom: -3.7rem;
     }
 
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 991px) {
     body {
-        width: 425px;
+        width: 100%;
     }
 
     header {
@@ -1261,13 +1338,18 @@ footer {
 
     .carousel-sect {
         margin-top: 0;
-        display: none;
+        height: 30rem;
+        /* display: none; */
     }
 
-    .carousel-overlay {
+    .carousel-overlay { 
         background: transparent;
         position: unset;
-        margin: 5rem auto;
+        margin: 4rem auto auto 7rem;;
+    }
+
+    .top-img {
+        display: none;
     }
 
     .carousel-logo {
@@ -1294,6 +1376,10 @@ footer {
     .declaration-img {
         margin-top: 5rem;
         display: block;
+    }
+
+    .declaration {
+        padding: 1.3rem;
     }
 
     .actual-carousel {
@@ -1338,7 +1424,7 @@ footer {
 
     .contact {
         padding: 1.5em;
-        gap: 0em;
+        display: block;
     }
 
     .free-quote {
@@ -1347,6 +1433,7 @@ footer {
 
     .call-now-div {
         line-height: 6rem;
+        margin-top: 2rem;
     }
 
     .big-bold {
@@ -1370,9 +1457,9 @@ footer {
     }
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
+@media (max-width: 767px) {
     body {
-        width: 375px;
+        width: 100%;
     }
 
     header {
@@ -1383,7 +1470,8 @@ footer {
 
     .carousel-sect {
         margin-top: 0;
-        display: none;
+        margin-bottom: 0;
+        /* display: none; */
     }
 
     .carousel-overlay {
@@ -1393,7 +1481,7 @@ footer {
     }
 
     .carousel-logo {
-        width: 6em;
+        width: 100%;
         padding-left: 0;
         float: none;
         border-top: 5px solid var(--green);
@@ -1504,7 +1592,7 @@ footer {
     .call-now-div {
         line-height: 6rem;
         margin-top: 2em;
-        width: 100%;
+        padding: .5rem;
     }
 
     .big-bold {
@@ -1528,9 +1616,9 @@ footer {
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 576px) {
     body {
-        width: 374px;
+        width: 100%;
     }
 
     header {
@@ -1541,7 +1629,9 @@ footer {
 
     .carousel-sect {
         margin-top: 0;
-        display: none;
+        margin-bottom: 0;
+        height: 20rem;
+        /* display: none; */
     }
 
     .carousel-overlay {
@@ -1551,7 +1641,7 @@ footer {
     }
 
     .carousel-logo {
-        width: 6em;
+        width: 100%;
         padding-left: 0;
         float: none;
         border-top: 5px solid var(--green);
@@ -1586,12 +1676,12 @@ footer {
 
     .p-sec1 {
         font-size: 1em;
-        line-height: 1.5;
+        line-height: 1.3;
     }
 
     .p-sec2 {
         font-size: 1em;
-        line-height: 1.5;
+        line-height: 1.3;
     }
 
     .actual-carousel {
@@ -1610,7 +1700,7 @@ footer {
 
     .first-family {
         display: block;
-        width: 40em;
+        width: 200%;
     }
 
 
@@ -1618,7 +1708,7 @@ footer {
     /* Get Back to Whats Important */
 
     .header-sec-gbwi {
-        font-size: 2em;
+        font-size: 1.8em;
         padding: .5rem;
     }
 
@@ -1629,6 +1719,11 @@ footer {
     .gbwi {
         font-size: 1em;
         padding: .5rem;
+        line-height: 1.3;
+    }
+
+    .em-orange {
+        font-size: 1.3rem
     }
 
     .gbwi-declaration {
@@ -1647,11 +1742,20 @@ footer {
         padding: 2em;
     }
 
+    .testimonial-img {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .testimony {
+        font-size: 1em;
+    }
+
     /* Contact Sect */
 
     .contact {
-        padding: 1.5em;
-        gap: 0em;
+        padding: 0;
+        width: 100%;
         display: block;
     }
 
