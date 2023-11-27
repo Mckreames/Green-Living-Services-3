@@ -120,7 +120,7 @@ ul a {
     width: 90%; */
     padding: 1rem;
     /* position: relative; */
-    overflow:;
+    overflow: hidden;
     /* border: 1px solid black; */
 }
 
@@ -921,6 +921,25 @@ footer {
     grid-column: 3;
 
 }
+
+
+.terms-page {
+    text-align: center;
+    padding: 0 10rem 5rem 10rem;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.terms-logo {
+    width: 30rem;
+    text-align: center;
+}
+
+
+
+
+
+
 
 /* 4:3 Aspect Ratio (Traditional Displays) 1024x768, 1280x960
     16:9 Aspect Ratio (Wider Displays) 1920x1080, 2560x1440*/
