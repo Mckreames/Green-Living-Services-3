@@ -923,13 +923,15 @@ footer {
 
 /* 4:3 Aspect Ratio (Traditional Displays) 1024x768, 1280x960
     16:9 Aspect Ratio (Wider Displays) 1920x1080, 2560x1440*/
-@media  (min-width: 2560px) {
+/* @media  (min-width: 2560px) {
     body {
         width: 98%;
     }
-}
+} 
 
-@media (min-width: 1400px) and (max-width: 2559px) {
+and (max-width: 2559px) */
+
+@media (min-width: 1400px) {
     body {
         width: 99%;
     }
