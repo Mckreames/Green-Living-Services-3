@@ -926,7 +926,7 @@ footer {
 .terms-page {
     text-align: center;
     padding: 0 10rem 5rem 10rem;
-    height: 100vh;
+    height: 100vw;
     font-size: 2rem;
 }
 
