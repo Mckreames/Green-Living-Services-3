@@ -966,6 +966,49 @@ footer {
     cursor: pointer;
 }
 
+/* Fade animations */
+.slowest-hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.9s;
+}
+  
+.slower-hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.6s;
+}
+  
+.slow-hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.3s;
+}
+  
+.hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+  
+.reverse-hide {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+  
+.slide {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  
+} 
+
 
 
 

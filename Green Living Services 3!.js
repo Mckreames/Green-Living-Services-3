@@ -1,52 +1,28 @@
 `use strict`;
 
-let prevScrollPos = window.pageYOffset;
-
-window.addEventListener("scroll", () => {
-  const currentScrollPos = window.pageYOffset;
-
-  if (prevScrollPos > currentScrollPos) {
-    document.querySelector(".head-stuff").style.transform = "translateY(0)";
-  } else {
-    document.querySelector(".head-stuff").style.transform = "translateY(-100%)";
-  }
-
-  prevScrollPos = currentScrollPos;
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("slide");
+    }
+  });
 });
 
-//Carousel controls
+const hideElements = document.querySelectorAll(".hide");
+hideElements.forEach((el) => observer.observe(el));
 
-let leftArrow = document.querySelector(".left-arrow");
-let rightArrow = document.querySelector(".right-arrow");
-let carouselImg = document.querySelector(".carousel-img1");
-let currentScrollPos = 1;
+const slowHideElements = document.querySelectorAll(".slow-hide");
+slowHideElements.forEach((el) => observer.observe(el));
 
-let rightScroll = function (currentScrollPos) {
-  if (currentScrollPos == 6) {
-    currentScrollPos = 1;
-    carouselImg.textContent = `carousel-img${currentScrollPos}`;
-    return carouselImg;
-  } else {
-    currentScrollPos++;
-    carouselImg.textContent = `carousel-img${currentScrollPos}`;
-    return carouselImg;
-  }
-};
+const slowerHideElements = document.querySelectorAll(".slower-hide");
+slowerHideElements.forEach((el) => observer.observe(el));
 
-let leftScroll = function (currentScrollPos) {
-  if (currentScrollPos == 1) {
-    currentScrollPos = 6;
-    carouselImg.textContent = `carousel-img${currentScrollPos}`;
-    return carouselImg;
-  } else {
-    currentScrollPos--;
-    return carouselImg;
-  }
-};
+const slowestHideElements = document.querySelectorAll(".slowest-hide");
+slowestHideElements.forEach((el) => observer.observe(el));
 
-leftArrow.addEventListener("click", leftScroll);
-
-rightArrow.addEventListener("click", rightScroll);
+const reverseHideElements = document.querySelectorAll(".reverse-hide");
+reverseHideElements.forEach((el) => observer.observe(el));
 
 // JavaScript function to format the phone number
 function formatPhoneNumber() {
